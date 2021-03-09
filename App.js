@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet, View, Image } from "react-native";
 import Header from "./components/Header";
+import Formulario from "./components/Formulario";
 
 export default function App() {
   return (
@@ -12,6 +13,9 @@ export default function App() {
             style={styles.imagen}
             source={require("./assets/img/banner.jpg")}
           />
+        </View>
+        <View>
+          <Formulario />
         </View>
       </View>
     </>
