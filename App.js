@@ -14,7 +14,7 @@ export default function App() {
             source={require("./assets/img/banner.jpg")}
           />
         </View>
-        <View>
+        <View style={styles.contenedorForm}>
           <Formulario />
         </View>
       </View>
@@ -30,5 +30,8 @@ const styles = StyleSheet.create({
   contenedorImagen: {
     borderBottomColor: "#35A7FF",
     borderBottomWidth: 5,
+  },
+  contenedorForm: {
+    marginVertical: 20,
   },
 });
