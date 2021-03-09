@@ -8,9 +8,9 @@ const Header = () => {
   });
 
   if (!fontsLoaded) {
-    return <Text>Cotizador de Criptomonedas</Text>;
+    return <Text>C R I P T O C O I N</Text>;
   } else {
-    return <Text style={styles.encabezado}>Cotizador de Criptomonedas</Text>;
+    return <Text style={styles.encabezado}>C R I P T O C O I N</Text>;
   }
 };
 
@@ -20,6 +20,10 @@ const styles = StyleSheet.create({
     fontFamily: "Lato_900Black",
     fontSize: 20,
     textAlign: "center",
+    backgroundColor: "#35A7FF",
+    color: "#FFFFFF",
+    paddingBottom: 20,
+    textTransform: "uppercase",
   },
 });
 
