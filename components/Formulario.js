@@ -85,14 +85,14 @@ const Formulario = ({
           onValueChange={(moneda) => obtenerMoneda(moneda)}
           style={styles.inputMoneda}
         >
-          <Picker.item
+          <Picker.Item
             label="Seleccione una moneda"
             value="Seleccione una moneda"
           />
-          <Picker.item label="Pesos Argentinos" value="ARS" />
-          <Picker.item label="Dólar" value="USD" />
-          <Picker.item label="Euro" value="EUR" />
-          <Picker.item label="Libra Esterlina" value="GBP" />
+          <Picker.Item label="Pesos Argentinos" value="ARS" />
+          <Picker.Item label="Dólar" value="USD" />
+          <Picker.Item label="Euro" value="EUR" />
+          <Picker.Item label="Libra Esterlina" value="GBP" />
         </Picker>
         <Text style={styles.texto}>Criptomoneda</Text>
         <Picker
